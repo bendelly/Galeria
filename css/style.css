@@ -3,18 +3,18 @@ html, body {
 	margin: 0px;
 }
 
-#szin, #kep {
-	height: 33%; 
-	width: 33%;
+.szin, .kep {
+	height: 33.33%; 
+	width: 33.33%;
 	display: block; 
 	float: left;
 	opacity: 0.2;
 }
 
-#szin {
+.szin {
 	background: #232859;
 }
 
-#szin:hover, #kep:hover {
+.szin:hover, .kep:hover {
 	opacity: 1;
 }
