@@ -1,0 +1,20 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+#szin, #kep {
+	height: 33%; 
+	width: 33%;
+	display: block; 
+	float: left;
+	opacity: 0.2;
+}
+
+#szin {
+	background: #232859;
+}
+
+#szin:hover, #kep:hover {
+	opacity: 1;
+}
